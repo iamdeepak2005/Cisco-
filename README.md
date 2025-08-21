@@ -58,7 +58,7 @@ CISCO/
 
 ```bash
 # 1. Clone project
-git clone <your-repo-url>
+git clone https://github.com/iamdeepak2005/Cisco-
 cd CISCO
 
 # 2. Create virtual environment
