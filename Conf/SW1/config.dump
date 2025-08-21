@@ -1,0 +1,10 @@
+hostname SW1
+!
+interface Vlan1
+ ip address 192.168.20.254 255.255.255.0
+!
+interface Gig0/1
+ bandwidth 100000
+!
+interface Gig0/2
+ bandwidth 100000

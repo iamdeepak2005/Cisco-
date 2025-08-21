@@ -1,0 +1,32 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# Ignore virtual environments
+venv/
+.env/
+ENV/
+env/
+.venv/
+
+# Ignore build outputs
+build/
+dist/
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE/project files
+.vscode/
+.idea/
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit’s generated folder
+.streamlit/

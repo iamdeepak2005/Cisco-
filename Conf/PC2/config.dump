@@ -1,0 +1,4 @@
+hostname PC2
+!
+interface Eth0
+ ip address 192.168.30.10 255.255.255.0

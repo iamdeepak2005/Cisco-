@@ -1,0 +1,15 @@
+hostname R3
+!
+interface Gig0/0
+ ip address 172.16.0.2 255.255.255.0
+ bandwidth 100000
+ mtu 1400
+!
+interface Gig0/1
+ ip address 192.168.20.1 255.255.255.0
+ bandwidth 100000
+ mtu 1500
+!
+router ospf 1
+ network 172.16.0.0 0.0.0.255 area 0
+ network 192.168.20.0 0.0.0.255 area 0
